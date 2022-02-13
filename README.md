@@ -20,3 +20,13 @@
 - Bootstrap 4
 - Vali Admin
 - mpdf
+
+## Development
+### Sources
+- Bootstrap 4 (https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- Vali Admin (https://pratikborsadiya.in/vali-admin/)
+
+### Installation
+- Open the XAMPP application, then run the Apache and MySql modules.
+- Open the /htdocs folder.
+- Open Git Bash, then run `git clone https://github.com/zcode25/e-shop.git`
