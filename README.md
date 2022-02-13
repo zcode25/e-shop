@@ -28,5 +28,9 @@
 
 ### Installation
 - Open the XAMPP application, then run the Apache and MySql modules.
-- Open the /htdocs folder.
-- Open Git Bash, then run `git clone https://github.com/zcode25/e-shop.git`
+- Open the `/htdocs` folder.
+- Open Git Bash, then run `git clone https://github.com/zcode25/e-shop.git`.
+- Open `http://localhost/phpmyadmin` with your browser.
+- Create a database with the name `e-shop2`.
+- Import file `/database/e-shop2` into database.
+- Open `http://localhost/e-shop2` with your browser to see the result.
