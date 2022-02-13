@@ -12,5 +12,11 @@
     <a href="https://electronicshop.rf.gd">Donate</a>
 </div>
 
-## 
-
+## Technology used
+- HTML
+- CSS
+- JavaScript
+- PHP
+- Bootstrap 4
+- Vali Admin
+- mpdf
