@@ -5,6 +5,8 @@
     <h1 align="center">electronic shop (e-shop)</h1>
 </div>
 
+[![Keep a Changelog v1.1.0 badge][changelog-badge]][changelog] [![Version 1.1.0 Badge][version-badge]][changelog]
+
 <div align="center">
     <p align="center">e-shop is a web-based application that can help manage your business computerized, so that your business can run effectively and efficiently.</p>
     <a href="https://electronicshop.rf.gd">View Demo</a>
@@ -33,4 +35,16 @@
 - Open `http://localhost/phpmyadmin` with your browser.
 - Create a database with the name `e-shop2`.
 - Import file `/database/e-shop2` into database.
-- Open `http://localhost/e-shop2` with your browser to see the result.
+- Open `http://localhost/e-shop` with your browser to see the result.
+
+
+[changelog]: ./CHANGELOG.md
+[changelog-badge]: https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.1.0-%23E05735
+[license]: ./LICENSE
+[rbenv]: https://github.com/rbenv/rbenv
+[ruby-version]: .ruby-version
+[source]: source/
+[pull-request]: https://help.github.com/articles/creating-a-pull-request/
+[fork]: https://help.github.com/articles/fork-a-repo/
+[version-badge]: https://img.shields.io/badge/version-1.1.0-blue.svg
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
