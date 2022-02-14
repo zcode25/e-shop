@@ -18,7 +18,7 @@
     <p align="center">e-shop is a web-based application that can help manage your business computerized, so that your business can run effectively and efficiently.</p>
     <a href="https://electronicshop.rf.gd">View Demo</a>
     ·
-    <a href="https://electronicshop.rf.gd">Donate</a>
+    <a href="https://saweria.co/azein25">Donate</a>
 </div>
 
 ## Technology used
@@ -36,7 +36,7 @@
 - Vali Admin (https://pratikborsadiya.in/vali-admin/)
 
 ### Installation
-- Open the XAMPP application, then run the Apache and MySql modules.
+- Open the XAMPP application, then run the Apache and MySQL modules.
 - Open the `/htdocs` folder.
 - Open Git Bash, then run `git clone https://github.com/zcode25/e-shop.git`.
 - Open `http://localhost/phpmyadmin` with your browser.
