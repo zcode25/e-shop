@@ -7,7 +7,7 @@
 
 <div align="center">
     <a href="https://electronicshop.rf.gd">
-        <img src="https://img.shields.io/badge/version-electronic%20shop%20v2.1.0-%4EC820" />
+        <img src="https://img.shields.io/badge/version-electronic%20shop%20v2.1.0-green" />
     </a>
     <a href="https://electronicshop.rf.gd">
         <img src="https://img.shields.io/github/stars/zcode25/e-shop" />
@@ -44,14 +44,10 @@
 - Import file `/database/e-shop2` into database.
 - Open `http://localhost/e-shop` with your browser to see the result.
 
+## Contribute
+Please contribute! Issues and pull requests are welcome. Thank you for your help improving the e-shop software!
 
-[changelog]: ./CHANGELOG.md
-[changelog-badge]: https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.1.0-%23E05735
-[license]: ./LICENSE
-[rbenv]: https://github.com/rbenv/rbenv
-[ruby-version]: .ruby-version
-[source]: source/
-[pull-request]: https://help.github.com/articles/creating-a-pull-request/
-[fork]: https://help.github.com/articles/fork-a-repo/
-[version-badge]: https://img.shields.io/badge/version-1.1.0-blue.svg
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+## Contacts
+-  Email : adamzein345@gmail.com
+-  Instagram 1 : [@azein25](https://www.instagram.com/azein25/)
+-  Instagram 2 : [@zcode25](https://www.instagram.com/zcode25/)
