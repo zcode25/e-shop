@@ -7,10 +7,10 @@
 
 <div align="center">
     <a href="https://electronicshop.rf.gd">
-        <img src="https://img.shields.io/badge/version-electronic%20shop%20v2.1.0-green"/>
+        <img src="https://img.shields.io/badge/version-electronic%20shop%20v2.1.0-success"/>
     </a>
     <a href="https://github.com/zcode25/e-shop">
-        <img src="https://img.shields.io/github/stars/zcode25/e-shop" />
+        <img src="https://img.shields.io/github/stars/zcode25/e-shop?color=important" />
     </a>
 </div>
     
