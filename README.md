@@ -5,7 +5,14 @@
     <h1 align="center">electronic shop (e-shop)</h1>
 </div>
 
-[![Keep a Changelog v1.1.0 badge][changelog-badge]][changelog] [![Version 1.1.0 Badge][version-badge]][changelog]
+<div align="center">
+    <a href="https://electronicshop.rf.gd">
+        <img src="https://img.shields.io/badge/version-electronic%20shop%20v2.1.0-%4EC820" />
+    </a>
+    <a href="https://electronicshop.rf.gd">
+        <img src="https://img.shields.io/github/downloads/zcode25/e-shop/total" />
+    </a>
+</div>
 
 <div align="center">
     <p align="center">e-shop is a web-based application that can help manage your business computerized, so that your business can run effectively and efficiently.</p>
