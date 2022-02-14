@@ -10,7 +10,7 @@
         <img src="https://img.shields.io/badge/version-electronic%20shop%20v2.1.0-%4EC820" />
     </a>
     <a href="https://electronicshop.rf.gd">
-        <img src="https://img.shields.io/github/downloads/zcode25/e-shop/total" />
+        <img src="https://img.shields.io/github/stars/zcode25/e-shop" />
     </a>
 </div>
 
