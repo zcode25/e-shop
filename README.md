@@ -7,13 +7,13 @@
 
 <div align="center">
     <a href="https://electronicshop.rf.gd">
-        <img src="https://img.shields.io/badge/version-electronic%20shop%20v2.1.0-green" />
+        <img src="https://img.shields.io/badge/version-electronic%20shop%20v2.1.0-green"/>
     </a>
-    <a href="https://electronicshop.rf.gd">
+    <a href="https://github.com/zcode25/e-shop">
         <img src="https://img.shields.io/github/stars/zcode25/e-shop" />
     </a>
 </div>
-
+    
 <div align="center">
     <p align="center">e-shop is a web-based application that can help manage your business computerized, so that your business can run effectively and efficiently.</p>
     <a href="https://electronicshop.rf.gd">View Demo</a>
