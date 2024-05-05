@@ -16,15 +16,15 @@ $barangs = query("SELECT * FROM barang WHERE kode_bisnis = '$kode'");
 
 // $bisnis = query("SELECT * FROM bisnis WHERE kode_bisnis = '$kode'")[0];
 
-
-$penjualans = query("SELECT * FROM faktur JOIN pembeli USING (id_pembeli) JOIN karyawan USING (id_karyawan) ORDER BY no_faktur DESC LIMIT 5");
+// $penjualans = query("SELECT no_faktur, tgl_pemesanan, tgl_jatohtempo, nama_karyawan FROM faktur JOIN pembeli USING (id_pembeli) JOIN karyawan USING (id_karyawan) WHERE kode_bisnis = '$kode' ORDER BY no_faktur DESC LIMIT 5");
+$penjualans = query("SELECT * FROM faktur WHERE kode_bisnis = '$kode' ORDER BY no_faktur DESC LIMIT 5");
 $tops = query("SELECT kode_barang, nama_barang, SUM(kuantitas) AS jumlah FROM transaksi JOIN barang USING (kode_barang) WHERE kode_bisnis = '$kode' GROUP BY (kode_barang) ORDER BY (jumlah) DESC LIMIT 10");
 
+// var_dump($penjualans);
+// exit();
 $tanggal = date('Y-m-d');
 
-$result = mysqli_query($conn, "SELECT * FROM pembayaran WHERE tgl_pembayaran = '$tanggal'");
-
-
+$result = mysqli_query($conn, "SELECT * FROM pembayaran WHERE tgl_pembayaran = '$tanggal' AND kode_bisnis = '$kode'");
 
 if (mysqli_num_rows($result) >= 1) {
 
@@ -33,8 +33,14 @@ if (mysqli_num_rows($result) >= 1) {
   $pendapatan["pendapatan"] = 0;
 }
 
+$result2 = mysqli_query($conn, "SELECT * FROM pembayaran WHERE kode_bisnis = '$kode'");
 
-$pendapatans = query("SELECT SUM(total_pembayaran) AS pendapatan from pembayaran")[0];
+if (mysqli_num_rows($result2) >= 1) {
+  $pendapatans = query("SELECT SUM(total_pembayaran) AS pendapatan from pembayaran")[0];
+} else {
+  $pendapatans["pendapatan"] = 0;
+}
+
 
 ?>
 <!DOCTYPE html>
@@ -222,8 +228,6 @@ $pendapatans = query("SELECT SUM(total_pembayaran) AS pendapatan from pembayaran
                   <th>No Faktur</th>
                   <th>Tanggal Pemesanan</th>
                   <th>Tanggal Jatoh Tempo</th>
-                  <th>Nama Pembeli</th>
-                  <th>Nama Karyawan</th>
                 </tr>
               </thead>
               <tbody>
@@ -232,8 +236,6 @@ $pendapatans = query("SELECT SUM(total_pembayaran) AS pendapatan from pembayaran
                     <td><?= $penjualan["no_faktur"]; ?></td>
                     <td><?= $penjualan["tgl_pemesanan"]; ?></td>
                     <td><?= $penjualan["tgl_jatohtempo"]; ?></td>
-                    <td><?= $penjualan["nama_pembeli"]; ?></td>
-                    <td><?= $penjualan["nama_karyawan"]; ?></td>
                   </tr>
                 <?php endforeach; ?>
               </tbody>

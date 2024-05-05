@@ -1,7 +1,7 @@
 <?php
 
 // Koneksi ke database
-$conn = mysqli_connect('localhost', 'root', '', 'e-shop2');
+$conn = mysqli_connect('localhost', 'root', 'root', 'e-shop2');
 // mengambil data
 function query($query)
 {
